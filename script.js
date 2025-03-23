@@ -7,3 +7,7 @@ function getComputerChoice() {
         case 2: return "Scissors";
     }
 }
+
+function getHumanChoice() {
+    return prompt("Please type one of the following: Rock, Paper or Scissors");
+}
